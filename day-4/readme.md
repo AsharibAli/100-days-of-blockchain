@@ -1,0 +1,1 @@
+# Counter in Solidity and it's working!
