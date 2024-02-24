@@ -42,11 +42,3 @@ the total amount of money safely. The purpose
 of modifier is to make sure code short and quicky
 add checks for specified actions.
 /*
-
-
-
-
-
-
-
-
