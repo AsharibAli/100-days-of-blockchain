@@ -13,7 +13,7 @@ contract Constructor {
 /*
 CONSTRUCTOR
 In Solidity, a constructor is a special function
-in a smart contract that runs only once whent the
+in a smart contract that runs only once when the
 contract is deployed. It's purpose is to set
 up initail values or perform any necessary 
 one-time actions.
