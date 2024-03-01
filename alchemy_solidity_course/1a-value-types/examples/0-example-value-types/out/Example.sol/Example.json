@@ -1,0 +1,209 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122093e6428b64f142bd77ba16a264b17d3b5ee47e6238e5a4fb39bb55575ec91a8664736f6c63430008140033",
+    "sourceMap": "0:221:18:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea264697066735822122093e6428b64f142bd77ba16a264b17d3b5ee47e6238e5a4fb39bb55575ec91a8664736f6c63430008140033",
+    "sourceMap": "0:221:18:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Example.sol\":\"Example\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Example.sol\":{\"keccak256\":\"0xd7d876b469c52d8c3aa8edbfc628b0b7870071b11e1d728045dad34eba48ef3d\",\"urls\":[\"bzz-raw://436d46e1b580b8956e486a504c6cd5829ac1d8341fff80524cb93b7e596a6a4d\",\"dweb:/ipfs/Qmbcjy57jpuzdXs888KvD67wgYGVsWDUhZTcr3hqDweguw\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Example.sol": "Example"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Example.sol": {
+        "keccak256": "0xd7d876b469c52d8c3aa8edbfc628b0b7870071b11e1d728045dad34eba48ef3d",
+        "urls": [
+          "bzz-raw://436d46e1b580b8956e486a504c6cd5829ac1d8341fff80524cb93b7e596a6a4d",
+          "dweb:/ipfs/Qmbcjy57jpuzdXs888KvD67wgYGVsWDUhZTcr3hqDweguw"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Example.sol",
+    "id": 42863,
+    "exportedSymbols": {
+      "Example": [
+        42862
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:222:18",
+    "nodes": [
+      {
+        "id": 42862,
+        "nodeType": "ContractDefinition",
+        "src": "0:221:18",
+        "nodes": [
+          {
+            "id": 42855,
+            "nodeType": "VariableDeclaration",
+            "src": "119:6:18",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "x",
+            "nameLocation": "124:1:18",
+            "scope": 42862,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int8",
+              "typeString": "int8"
+            },
+            "typeName": {
+              "id": 42854,
+              "name": "int8",
+              "nodeType": "ElementaryTypeName",
+              "src": "119:4:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int8",
+                "typeString": "int8"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 42857,
+            "nodeType": "VariableDeclaration",
+            "src": "146:7:18",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "y",
+            "nameLocation": "152:1:18",
+            "scope": 42862,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int16",
+              "typeString": "int16"
+            },
+            "typeName": {
+              "id": 42856,
+              "name": "int16",
+              "nodeType": "ElementaryTypeName",
+              "src": "146:5:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int16",
+                "typeString": "int16"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 42859,
+            "nodeType": "VariableDeclaration",
+            "src": "194:9:18",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "z1",
+            "nameLocation": "201:2:18",
+            "scope": 42862,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 42858,
+              "name": "int256",
+              "nodeType": "ElementaryTypeName",
+              "src": "194:6:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 42861,
+            "nodeType": "VariableDeclaration",
+            "src": "209:9:18",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "z2",
+            "nameLocation": "216:2:18",
+            "scope": 42862,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 42860,
+              "name": "int256",
+              "nodeType": "ElementaryTypeName",
+              "src": "209:6:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Example",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          42862
+        ],
+        "name": "Example",
+        "nameLocation": "9:7:18",
+        "scope": 42863,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 18
+}
