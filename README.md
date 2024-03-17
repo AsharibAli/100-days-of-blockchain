@@ -1,1 +1,1 @@
-# 100_days_of_blockchain
+# 30 Days of Blockchain/ Solidity /Smart Contract Development.
