@@ -1,1 +1,1 @@
-# 30 Days of Blockchain/ Solidity /Smart Contract Development.
+# 100 Days of Blockchain / Solidity / Foundry / Smart Contract Development.
